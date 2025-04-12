@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void capital_letter(int, char*);
+char capital_letter(int, char*);
 
 int main(){
 	int i = 0;

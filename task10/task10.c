@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void min_max(int n, int arr[], int min, int max){
+int min_max(int n, int arr[], int min, int max){
 	if(n >= 0){
 		if(min > arr[n]){
 			min = arr[n];
@@ -10,5 +10,6 @@ void min_max(int n, int arr[], int min, int max){
 		}
 		return min_max(--n, arr, min, max);
 	}
-	printf("%d %d \n", min, max);
+	return min;
+	return max;
 }

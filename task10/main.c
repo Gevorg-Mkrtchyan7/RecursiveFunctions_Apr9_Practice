@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void min_max(int, int*, int, int);
+int min_max(int, int*, int, int);
 
 int main(){
 	int n = 5;
